@@ -139,4 +139,4 @@ LinkedList.prototype.print = function (data) {
   console.log(msg);
 };
 
-module.exports = LinkedList;
+module.exports = { ListNode, LinkedList };
