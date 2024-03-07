@@ -23,8 +23,6 @@ describe("Design Browser history", () => {
     expect(browserHistory.forward(1)).toBe("facebook.com");
     browserHistory.visit("linkedin.com");
 
-    browserHistory.print();
-
     expect(browserHistory.forward(2)).toBe("linkedin.com"); // Cannot move forward
     expect(browserHistory.back(2)).toBe("google.com");
     expect(browserHistory.back(7)).toBe("leetcode.com");
